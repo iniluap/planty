@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Planty</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Muli|Playfair+Display:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+</head>
+<body>
+
+    <nav class="container">
+        <div id="reveal-button" class="nav__reveal-button"></div>
+        <ul id="nav-list" class="nav__list">
+            <li class="nav__list-item"><a href="#about">about</a></li>
+            <li class="nav__list-item"><a href="#features">features</a></li>
+            <li class="nav__list-item"><a href="#reviews">reviews</a></li>
+            <li class="nav__list-item"><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="container about" data-aos="fade-in">
+        <div class="about__frame">
+            <img src="assets/img/flower-1.jpg" class="about__flower-image">
+            <img src="assets/img/img-mobile.png" class="about__mobile-image">
+        </div>
+
+        <div class="about__content">
+            <div class="about__title-block">
+                <h1 class="about__title">planty</h1>
+                <h4 class="about__subtitle">because we care for plants.</h4>
+            </div>
+            <p class="about__text">Godard keytar ethical deep v, try-hard kinfolk everyda sy carry celiac organic pug photo booth before they sold out. Deep v single-origin coffee photo booth tacos irony artisan. Poutine cardigan gastropub, asymmetrical distillery actually flannel fingerstache gluten-free. Disrupt thundercats pickled blog. Intelligentsia seitan hoodie put a bird on it brunch ugh 8-bit. Twee photo booth distillery VHS blue bottle. Ugh wolf bushwick, gastropub chia ennui single-origin coffee stumptown.</p>
+            <a class="button about__button">download the app</a>
+        </div>
+    </section>
+
+    <section id="features" class="features" data-aos="fade-in">
+        <div class="container features__container">
+            <blockquote class="features__quote">Every flower is a soul blossoming in nature.</blockquote>
+        </div>
+    </section>
+
+    <section id="reviews" class="container reviews" data-aos="fade-in">
+        <h2>experts on planty</h2>
+
+        <div>
+            <div class="reviews__single-review">
+                <img class="reviews__portrait" src="assets/img/lidia.png">
+                <h3 class="reviews__name">Lidia Flower</h3>
+                <p class="reviews__position">FLORIST at FlowerPower</p>
+                <p class="reviews__content">Mustache swag hashtag, schlitz nar whal&nbsp;blue bottle echo park salvia squid&nbsp;cornhole fanny pack.</p>
+            </div>
+
+            <div class="reviews__single-review">
+                <img class="reviews__portrait" src="assets/img/albert.png">
+                <h3 class="reviews__name">Albert Hill</h3>
+                <p class="reviews__position">Florist at Flo</p>
+                <p class="reviews__content">Tacos lo-fi 90's fanny pack ennui sriracha. Kombucha hoodie fap keytar shabby chic aesthetic heir.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container contact" data-aos="fade-in">
+        <h2>contact us</h2>
+
+        <div class="contact__block">
+            <form class="contact__form">
+                <div class="contact__form-group">
+                    <label for="name" class="contact__form-label">name *</label>
+                    <input type="text" name="name" id="name" class="contact__form-input" required>
+                </div>
+
+                <div class="contact__form-group">
+                    <label for="email" class="contact__form-label">e-mail *</label>
+                    <input type="text" name="email" id="email" class="contact__form-input" required>
+                </div>
+
+                <div class="contact__form-group">
+                    <label for="message" class="contact__form-label">message</label>
+                    <textarea name="message" rows="5" class="contact__form-text"></textarea>
+                </div>
+                <input class="button contact__button" type="submit" value="send">
+            </form>
+
+            <div class="contact__image-block">
+                <div class="contact__image-frame">
+                    <img src="assets/img/flower-2.jpg" class="contact__image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__tag">
+                <p>Created with love by The Awwwesomes.</p>
+                <p>All rights reserved, 2016 </p>
+            </div>
+
+            <div class="footer__social-media">
+                <a href="http://www.facebook.com" class="footer__social-media-icon"><img src="assets/img/facebook.svg"></a>
+                <a href="http://www.twitter.com" class="footer__social-media-icon"><img src="assets/img/twitter.svg"></a>
+                <a href="http://www.instagram.com" class="footer__social-media-icon"><img src="assets/img/instagram.svg"></a>
+            </div>
+        </div>
+    </footer>
+
+<script type="text/javascript" src="assets/js/script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 2000,
+        easing: 'ease-out',
+    });
+</script>
+</body>
+</html>
