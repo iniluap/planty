@@ -2,7 +2,7 @@
 
 # Planty
 
-A a landing page for a mock mobile app.
+A landing page for a mock mobile app.
 
 Huge thanks to The Awwwesomes for a free design. Visit them at https://theawwwesomes.org/
 You can check the design here: https://the-awwwesomes.gitbooks.io/html-css-step-by-step/content/pl/appendix/layouts/index.html
